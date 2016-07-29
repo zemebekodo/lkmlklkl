@@ -1,24 +1,19 @@
+<script>
 
-<script type="text/javascript">
 
-function rand()
-{
-var randomnumber = Math.floor(Math.random()*10)
-var site = new Array(5);
-site[0] = 'http://www.q8ieng.com';
-site[1] = 'http://www.swalif.com';
-site[2] = 'http://www.google.com';
-site[3] = 'http://www.yahoo.com';
-site[4] = 'http://www.traidnt.net';
+<?
+$sites=array("http://swalif.net","
+https://www.google.com","
+https://e.mail.ru","
+http://pctechneon.com","
+http://forum.montadaphp.net/","
+http://www.traidnt.net","
+mosta5dem.blogspot.comt");
+$var1=rand(0,10);
 
-var sit = site[randomnumber];
+$sec=0;
+?>
 
-window.location = sit;
-
-}
+<META HTTP-EQUIV="Refresh" CONTENT="<? echo $sec; ?>;URL=<?  echo $sites[$var1]; ?>">
 
 </script>
-
-
-
-<onload="rand()">
