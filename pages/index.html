@@ -1,1 +1,20 @@
-%0A%3Chead%3E%0A%3Cscript%20type%3D%22text%2Fjavascript%22%3E%0Afunction%20rand()%0A%7B%0Avar%20randomnumber%20%3D%20Math.floor(Math.random()*5.0%20)%0Avar%20site%20%3D%20new%20Array(5)%3B%0Asite%5B0%5D%20%3D%20'http%3A%2F%2Fwww.q8ieng.com'%3B%0Asite%5B1%5D%20%3D%20'http%3A%2F%2Fwww.swalif.com'%3B%0Asite%5B2%5D%20%3D%20'http%3A%2F%2Fwww.google.com'%3B%0Asite%5B3%5D%20%3D%20'http%3A%2F%2Fwww.yahoo.com'%3B%0Asite%5B4%5D%20%3D%20'http%3A%2F%2Fwww.traidnt.net'%3B%0Avar%20sit%20%3D%20site%5Brandomnumber%5D%3B%0Awindow.location%20%3D%20sit%3B%0A%7D%0A%3C%2Fscript%3E%0A%0A%3Cbody%3E%0A%0A%3Cbody%20onload%3D%22rand()%22%3E
+
+<head>
+<script type="text/javascript">
+function rand()
+{
+var randomnumber = Math.floor(Math.random()*5.0 )
+var site = new Array(5);
+site[0] = 'http://www.q8ieng.com';
+site[1] = 'http://www.swalif.com';
+site[2] = 'http://www.google.com';
+site[3] = 'http://www.yahoo.com';
+site[4] = 'http://www.traidnt.net';
+var sit = site[randomnumber];
+window.location = sit;
+}
+</script>
+
+<body>
+
+<body onload="rand()">
